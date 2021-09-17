@@ -71,7 +71,7 @@ export const MyHorizontalBarChart = ({ filters }) => {
       firstSpace: (MAX-item.spend)/2,
       secondSpace: (MAX-item.spend)/2,
     })))
-  }, [])
+  }, [filters])
   
   return (
     <ResponsiveContainer width="99%" aspect={3}  debounce={1}>
